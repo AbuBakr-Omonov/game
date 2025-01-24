@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -13,17 +16,16 @@
         <div class="container">
             <div class="header__nav">
                 <div class="header__nav_collection">
-                    <div class="nav__logo">
-                        <!-- <img src="./img/logo__svg.svg" alt="">
-                        <span>Infinizai.</span> -->
+                    <div class="nav__logo from-top">
+                       
                         <img src="./img/logo__svg2.svg" alt="">
                     </div>
-                    <ul class="header__nav__list">
-                        <li><a href="#"><span>Home</span></a></li>
-                        <li><a href="#"><span>About</span></a></li>
-                        <li><a href="#"><span>Team</span></a></li>
-                        <li><a href="#"><span>Shop</span></a></li>
-                        <li><a href="#"><span>Pages</span></a></li>
+                    <ul class="header__nav__list " >
+                        <li class="nav__list  from-top"><a href="#community"><span>Home</span></a></li>
+                        <li  class="nav__list  from-top"><a href="#article"><span>About</span></a></li>
+                        <li  class="nav__list  from-top"><a href="#img"><span>Team</span></a></li>
+                        <li  class="nav__list  from-top"><a href="#shop"><span>Shop</span></a></li>
+                        <li  class="nav__list  from-top"><a href="#cloud"><span>Pages</span></a></li>
                     </ul>
                     <div class="header__nav__contact">
                         <div class="header__nav__moon">
@@ -68,7 +70,7 @@
     </header>
 
     <main class="main">
-        <section class="sponsors__section">
+        <section class="sponsors__section" id="sponsors">
             <div class="container">
                 <div class="sponsors__wrapper">
                     <div class="sponsors__item">
@@ -78,7 +80,7 @@
                         </div>
                         <div class="sponsors__subtitle">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, nec donec in morbi
-                            pulvinar. Enim non pulvinar neque.
+                                pulvinar. Enim non pulvinar neque.
                             </p>
                         </div>
                     </div>
@@ -109,7 +111,7 @@
             </div>
         </section>
 
-        <section class="shop__section">
+        <section class="shop__section" id="shop">
             <div class="container">
                 <div class="shop__wrapper">
                     <div class="shop__item">
@@ -124,7 +126,8 @@
                         </div>
                         <div class="shop__subtitle">
                             <p>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam
                             </p>
                         </div>
 
@@ -134,7 +137,8 @@
                                     <img src="./img/square__svg.svg" alt="">
                                     <div class="shop__items__text">
                                         <p>All New Gameplay</p>
-                                        <p>Vivamus magna justo, lacinia eget coecetur sed, convallis at tellus. Curabitur non nulla sit Vestibum ante ipsum primis in faucibus orci
+                                        <p>Vivamus magna justo, lacinia eget coecetur sed, convallis at tellus.
+                                            Curabitur non nulla sit Vestibum ante ipsum primis in faucibus orci
                                         </p>
                                     </div>
                                 </div>
@@ -142,34 +146,217 @@
                                     <img src="./img/square__svg.svg" alt="">
                                     <div class="shop__items__text">
                                         <p>Lastest Game Engine</p>
-                                        <p>Vivamus magna justo, lacinia eget coecetur sed, convallis at tellus. Curabitur non nulla sit Vestibum ante ipsum primis in faucibus orci
+                                        <p>Vivamus magna justo, lacinia eget coecetur sed, convallis at tellus.
+                                            Curabitur non nulla sit Vestibum ante ipsum primis in faucibus orci
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                           <div  class="shop__items_futures">
-                            <div class="shop__new">
-                                <img src="./img/square__svg.svg" alt="">
-                                <div class="shop__items__text">
-                                    <p>Multiplayer on the go</p>
-                                    <p>Vivamus magna justo, lacinia eget coecetur sed, convallis at tellus. Curabitur non nulla sit Vestibum ante ipsum primis in faucibus orci
-                                    </p>
+                            <div class="shop__items_futures">
+                                <div class="shop__new">
+                                    <img src="./img/square__svg.svg" alt="">
+                                    <div class="shop__items__text">
+                                        <p>Multiplayer on the go</p>
+                                        <p>Vivamus magna justo, lacinia eget coecetur sed, convallis at tellus.
+                                            Curabitur non nulla sit Vestibum ante ipsum primis in faucibus orci
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="shop__new">
+                                    <img src="./img/square__svg.svg" alt="">
+                                    <div class="shop__items__text">
+                                        <p>All New Gameplay</p>
+                                        <p>Vivamus magna justo, lacinia eget coecetur sed, convallis at tellus.
+                                            Curabitur non nulla sit Vestibum ante ipsum primis in faucibus orci
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="shop__new">
-                                <img src="./img/square__svg.svg" alt="">
-                                <div class="shop__items__text">
-                                    <p>All New Gameplay</p>
-                                    <p>Vivamus magna justo, lacinia eget coecetur sed, convallis at tellus. Curabitur non nulla sit Vestibum ante ipsum primis in faucibus orci
-                                    </p>
-                                </div>
-                            </div>
-                           </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="cloud__section" id="cloud">
+            <div class="container">
+                <div class="cloud__wrapper">
+                    <div class="cloud__wrapper_items">
+                        <div class="cloud__wrapper_item">
+                            <div class="cloud__logo">
+                                <img src="./img/fire_logo.svg" alt="">
+                                <p>FUTURE OF ESPORTS</p>
+                            </div>
+                            <div class="cloud__title">
+                                <p>The new era of cloud gaming here</p>
+                            </div>
+                            <div class="cloud__subtitle">
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                    voluptatem quia
+                                </p>
+                            </div>
+                            <div class="cloud__btn">
+                                <button>Explore</button>
+                            </div>
+                        </div>
+
+                        <div class="cloud__img">
+                            <img src="./img/Frame__png.png" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="img__section" id="img">
+            <div class="img__wrapper">
+                <div class="img__smooth">
+                    <div class="img__item">
+                        <img src="./img/smooth__png.png" alt="">
+                        <p>Smooth FPS</p>
+                    </div>
+                </div>
+                <div class="img__multi">
+                    <div class="img__item">
+                        <img src="./img/mutplayer__png.png" alt="">
+                        <p>Smooth FPS</p>
+                    </div>
+                </div>
+                <div class="img__worl">
+                    <div class="img__item">
+                        <img src="./img/world__png.png" alt="">
+                        <p>Smooth FPS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="articles__section" id="article">
+            <div class="container">
+                <div class="articles__wrapper">
+                    <div class="articles__item">
+                        <div>
+                            <div class="aticles__logo">
+                                <img src="./img/fire_logo.svg" alt="">
+                                <p>FUTURE OF ESPORTS</p>
+                            </div>
+                            <div class="articles__title">
+                                <p>Latest News &</p>
+                                <p>Articles</p>
+                            </div>
+                        </div>
+                        <div class="articles__btn">
+                            <button>Read More</button>
+                        </div>
+
+                    </div>
+
+
+                  <div class="articles__new">
+                    <div class="articles__items">
+                        <div class="articles__items__img">
+                            <img src="./img/article--img.png" alt="">
+                        </div>
+                        <div class="articles__items__title">
+                            <p>April 2, 2021</p>
+                            <p>Esports Group teams up with the Indianapolis Colts
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="article__lates">
+                        <div>
+                            <div class="articles__futures">
+                                <div class="articles__futures_img">
+                                    <img src="./img/article--img2.png" alt="">
+                                </div>
+                                <div class="articles__futures__title">
+                                    <p>April 2, 2021</p>
+                                    <p>NAVI reveals s1mple fifth anniversary</p>
+    
+                                </div>
+    
+                            </div>
+                            <div class="articles__futures">
+                                <div class="articles__futures_img">
+                                    <img src="./img/article--img3.png" alt="">
+                                </div>
+                                <div class="articles__futures__title">
+                                    <p>April 2, 2021</p>
+                                    <p>NAVI reveals s1mple fifth anniversary</p>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div>
+                            <div class="articles__futures">
+                                <div class="articles__futures_img">
+                                    <img src="./img/article--img4.png" alt="">
+                                </div>
+                                <div class="articles__futures__title">
+                                    <p>April 2, 2021</p>
+                                    <p>NAVI reveals s1mple fifth anniversary</p>
+    
+                                </div>
+    
+                            </div>
+                            <div class="articles__futures">
+                                <div class="articles__futures_img">
+                                    <img src="./img/article--img5.png" alt="">
+                                </div>
+                                <div class="articles__futures__title">
+                                    <p>April 2, 2021</p>
+                                    <p>NAVI reveals s1mple fifth anniversary</p>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+
+                  </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="community__section" id="community">
+            <div class="container">
+                <div class="community__wrapper">
+                    <div class="community__item">
+                        <div class="community__title">
+                            <p>Join the largest gaming community</p>
+                            <p>
+                                Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus
+                            </p>
+                            <p>
+                                lectus. Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesu ada feugiat. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo
+                            </p>
+                        </div>
+    
+                        <div class="community__input">
+                            <input type="text" placeholder=" Your Email Address">
+                            <button>Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <a href="#" class="back__top">
+            <i class="fa-solid fa-chevron-up"></i>
+        </a>
 
     </main>
 </body>
